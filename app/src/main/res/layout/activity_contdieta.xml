@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:title=""
+        android:elevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="1dp">
+
+            <ImageView
+                android:layout_width="216dp"
+                android:layout_height="100dp"
+                android:contentDescription="Logo"
+                android:src="@drawable/ic_logo"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textToolbarLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:paddingHorizontal="8dp"
+                android:text="Login"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Título e descrição do Lanche da manhã -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Lanche da manhã"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="start"
+                android:singleLine="false"
+                android:inputType="textMultiLine"
+                android:text="• Uma porção de fruta ou um punhado de castanhas."
+                android:textColor="#444444"
+                android:textSize="12sp" />
+
+            <!-- Título e descrição do Almoço -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Almoço"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="start"
+                android:singleLine="false"
+                android:inputType="textMultiLine"
+                android:text="• Salada com diversos tipos de folhas verdes e sementes de girassol.\n• Peixe assado com ervas e especiarias (tomilho, noz-moscada, alecrim e orégano) temperado com azeite.\n• Arroz integral cozido com lentilha, cogumelos, orégano e cenoura.\n• Uma porção de fruta ácida, como ameixa, abacaxi, laranja, mexerica ou kiwi."
+                android:textColor="#444444"
+                android:textSize="12sp" />
+
+
+            <!-- Título e descrição do Lanche da tarde -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Lanche da tarde"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="start"
+                android:singleLine="false"
+                android:inputType="textMultiLine"
+                android:text="• Iogurte natural desnatado com frutas vermelhas.\n• Uma pitada de farelo de aveia.\n• Um fio de mel.\n• Acompanhando com água mineral."
+                android:textColor="#444444"
+                android:textSize="12sp" />
+
+            <!-- Título e descrição do Jantar -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Jantar"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="start"
+                android:singleLine="false"
+                android:inputType="textMultiLine"
+                android:text="• Prato fundo de sopa de legumes.\n• Sardinhas ou atum com berinjela picada refogados com azeite, azeitonas pretas, tomates, pimentão vermelho, cebola e alho.\n• Uma fatia de pão integral para acompanhar."
+                android:textColor="#444444"
+                android:textSize="12sp" />
+
+            <!-- Título e descrição da Ceia -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Ceia"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="start"
+                android:singleLine="false"
+                android:inputType="textMultiLine"
+                android:text="• Chá de manjericão com alecrim e maçã."
+                android:textColor="#444444"
+                android:textSize="12sp" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnVoltar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#888888"
+                android:text="Voltar"
+                android:textColor="#FFFFFF"
+                app:cornerRadius="32dp"
+                app:elevation="2dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

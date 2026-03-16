@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:title=""
+        android:elevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="1dp">
+
+            <ImageView
+                android:layout_width="216dp"
+                android:layout_height="100dp"
+                android:contentDescription="Logo"
+                android:src="@drawable/ic_logo"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textToolbarLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:paddingHorizontal="8dp"
+                android:text="Login"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Dieta Mediterrânea"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="12dp"
+                android:contentDescription="Imagem da dieta mediterrânea"
+                android:src="@drawable/dietamed"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="A dieta mediterrânea foi considerada a melhor dieta entre todas as outras por ter levado a melhor classificação em diversas categorias, incluindo melhor dieta vegetariana, melhor dieta para alimentação saudável e para a família."
+                android:textColor="#444444"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Benefícios"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Inúmeros estudos já comprovaram os benefícios desse tipo de alimentação. Além de reduzir o risco de diversos problemas de saúde, como diabetes, problemas cardiovasculares, demência, depressão e câncer, a dieta mediterrânea também está associada a ossos mais fortes, maior expectativa de vida e até mesmo perda de peso."
+                android:textColor="#444444"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Cardápio sugerido"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="start"
+                android:singleLine="false"
+                android:inputType="textMultiLine"
+                android:text="Café da manhã:\n• Chá de ervas frescas\n• Uma fruta\n\nSanduíche mediterrâneo:\n• Duas fatias de pão integral\n• Um pedaço pequeno de queijo de cabra\n• Azeite aromatizado com ervas e manjericão\n• Tomate cereja e pepino picado\n• Sal marinho batido com orégano, tomilho e manjericão\n\nModo de preparo:\n• Torre levemente as duas fatias de pão\n• Acrescente o azeite aromatizado e o queijo de cabra\n• Complete com tomate cereja e pepino, tempere com o sal marinho."
+                android:textColor="#444444"
+                android:textSize="12sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnVermais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#888888"
+                android:text="Ver mais"
+                android:textColor="#FFFFFF"
+                app:cornerRadius="32dp"
+                app:elevation="2dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnVoltar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#888888"
+                android:text="Voltar"
+                android:textColor="#FFFFFF"
+                app:cornerRadius="32dp"
+                app:elevation="2dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
