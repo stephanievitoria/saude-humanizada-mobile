@@ -57,7 +57,7 @@ app/
 ### 1️⃣ Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/stephanievitoria/saude-humanizada-mobile.git
 ```
 
 ### 2️⃣ Abrir no Android Studio
