@@ -1,4 +1,4 @@
-# 📱 App de Saúde Humanizada
+# App de Saúde Humanizada
 
 Aplicativo mobile desenvolvido para **Android** com o objetivo de fornecer informações sobre **saúde, nutrição, medicamentos e alternativas naturais de cuidado com o bem-estar**.
 
@@ -8,7 +8,7 @@ A aplicação reúne conteúdos informativos sobre saúde e permite que usuário
 
 ---
 
-# 🚀 Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 * Java
 * Android Studio
@@ -17,7 +17,7 @@ A aplicação reúne conteúdos informativos sobre saúde e permite que usuário
 
 ---
 
-# 📱 Funcionalidades do Aplicativo
+# Funcionalidades do Aplicativo
 
 O aplicativo oferece funcionalidades voltadas à consulta de informações sobre saúde e bem-estar:
 
@@ -33,7 +33,7 @@ Essas funcionalidades foram organizadas em diferentes telas para facilitar a nav
 
 ---
 
-# 🧩 Estrutura do Projeto
+# Estrutura do Projeto
 
 O projeto segue a estrutura padrão de aplicações Android:
 
@@ -52,7 +52,7 @@ app/
 
 ---
 
-# ▶️ Como Executar o Projeto
+# Como Executar o Projeto
 
 ### 1️⃣ Clonar o repositório
 
@@ -70,7 +70,7 @@ Conecte um **emulador Android** ou dispositivo físico e execute o projeto diret
 
 ---
 
-# 📸 Screenshots
+# Screenshots
 
 ### Tela Inicial
 ![Tela Inicial](docs/telainicial.png)
@@ -96,7 +96,7 @@ Conecte um **emulador Android** ou dispositivo físico e execute o projeto diret
 
 ---
 
-# 🎓 Contexto Acadêmico
+# Contexto Acadêmico
 
 Este projeto foi desenvolvido como parte das atividades do curso de **Sistemas de Informação**.
 
@@ -107,7 +107,7 @@ O objetivo foi transformar o protótipo inicial em uma **aplicação funcional p
 
 ---
 
-# 👩‍💻 Autora
+# Autora
 
 **Stephanie Vitoria Soares da Cruz**
 
